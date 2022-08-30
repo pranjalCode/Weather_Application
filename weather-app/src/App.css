@@ -1,0 +1,46 @@
+.weatherBg{
+  background: url('https://cdn.pixabay.com/photo/2015/07/05/10/18/tree-832079__480.jpg') no-repeat center center fixed;
+  height: 100vh;
+  display: flex;
+  background-size: cover;
+  align-items: center;
+  flex-direction: column; 
+  justify-content: center;
+  background-repeat: no-repeat
+}
+
+.img-fluid{
+  max-width: 100%;
+  height: auto;
+}
+
+.weather-result{
+  margin: auto;
+  width: 250px;
+  height: 350px;
+  box-shadow: 2px;
+  
+}
+
+.weatherIcon{
+  margin-top: 2rem;
+  height: 80px;
+  width: 80px;
+}
+
+.weatherCity{
+  font-size: 35px;
+}
+
+.cityTemp{
+  font-size: 45px;
+  font-weight: 700;
+}
+
+
+.cityMain{
+  font-size: 16px;
+  font-weight: bold;
+}
+
+
